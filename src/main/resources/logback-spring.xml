@@ -33,11 +33,8 @@
 
     <logger name="org.springframework" level="DEBUG" />
     <logger name="com.agent" level="DEBUG" />
-    <logger name="org.hibernate" level="DEBUG" />
-
 
     <root level="DEBUG">
-        <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </root>
 
